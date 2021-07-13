@@ -1,0 +1,49 @@
+title: YAMT
+description: Yet Another Minimal Theme
+url: ''
+baseurl: ''
+author:
+  name: Alessio Franceschi
+  email: alessiofranceschi2@gmail.com
+  url: 'https://alessiofranceschi.me'
+permalink: '/:year/:month/:day/:title:output_ext'
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+paginate: 3
+paginate_path: '/page:num/'
+twitter:
+  username: pandasekh
+  card: summary
+facebook:
+  app_id: null
+  publisher: null
+  admins: null
+logo: /assets/img/logo.jpg
+social:
+  links:
+    - 'https://twitter.com/PandaSekh'
+    - 'https://www.github.com/pandasekh'
+    - 'https://www.linkedin.com/in/alessio-franceschi/'
+webmaster_verifications:
+  google: null
+  bing: null
+  alexa: null
+  yandex: null
+  baidu: null
+lang: en_US
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+sass:
+  style: compressed
+  sourcemap: never
